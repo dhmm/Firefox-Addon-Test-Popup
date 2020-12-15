@@ -1,0 +1,48 @@
+body
+{
+    background:black;
+}
+.container
+{
+    width:500px;
+    height:500px;
+    background:#fcfcfc;
+    color:#333;
+}
+.btn
+{    
+    display:table;
+    cursor:pointer;
+    background:silver;
+    padding:5px;
+}
+.btn:hover
+{    
+    background:#ccc;    
+}
+
+.popup
+{
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+    top:20px;
+    left:150px;
+    width:200px;
+    height:200px;
+    background:#ccc;
+    margin-top:150px;
+    box-shadow: -5px -5px 10px #333;
+}
+#popup-close
+{
+    background:blue;
+    color:#fff;
+    cursor: pointer;
+    width:20px;
+    height:20px;
+    position: relative;
+    right:0;
+    left:180px;    
+}

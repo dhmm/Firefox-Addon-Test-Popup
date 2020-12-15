@@ -1,0 +1,26 @@
+{
+
+    "manifest_version": 2,
+    "name": "Popup",
+    "version": "1.0",
+  
+    "description": "Popup box in extension.",
+  
+    "icons": {
+      "48": "icon.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["https://www.mozilla.org/en-US/"],                
+        "js": ["popup.js"]
+      }
+    ],
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Popup",
+        "default_popup": "popup.html"
+      }
+  
+  }
